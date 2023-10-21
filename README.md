@@ -9,23 +9,6 @@ El siguiente diagrama muestra el camino desde la toma de imagen hasta el almacen
 <p align="center">
   <img src="arquitectura Goupcloud.png" alt="arquitect"  width="80%"/></p>
 
-
-
-Los procesos que veremos son:
-1. [Captura del documento](#Captura-del-documento)
-2. [Almacenamiento del documento capturado en Microsoft Azure Blob Storage](#Almacenamiento-del-documento-capturado-en-Microsoft-Azure-Blob-Storage)
-3. [Procesamiento de la imagen almacenada mediante Inteligencia Artificial](#Procesamiento-de-la-imagen-almacenada-mediante-Inteligencia-Artificial)
-   1. [Pre procesamiento de la imagen mediante OCR para el selector de nacionalidad y posterior extracción de datos](#Pre-procesamiento-de-la-imagen-mediante-OCR-para-el-selector-de-nacionalidad-y-posterior-extracción-de-datos)
-   2. [Transformacion de la captura de datos a formato HL7 FHIR](#Transformacion-de-la-captura-de-datos-a-formato-HL7-FHIR)
-4. [Almacenamiento de la data transformada en Microsoft Azure Blob Storage](#Almacenamiento-de-la-data-transformada-en-Microsoft-Azure-Blob-Storage)
-5. [Creación y despliegue del Azure Function para la automatización de procesos](#Creación-del-Azure-Function-para-la-automatización-de-procesos)
-   1. [Arquitectura Azure Function](#Arquitectura-Azure-Function)
-      + [Creación almacenamiento y contenedores en Azure](#Creación-almacenamiento-y-contenedores-en-Azure)
-      + [Azure function en ambiente local con Visual Studio Code](#Azure-function-en-ambiente-local-con-Visual-Studio-Code)
-6. [Uso de Docker para el despliegue de servidor de HAPI FHIR](#Uso-de-Docker-para-el-despliegue-de-servidor-de-HAPI-FHIR)
-    1. [Creación de la base de datos PostgreSQL(base de datos relacional) para almacenar al nuevo paciente ingresado](#Creación-de-la-base-de-datos-PostgreSQL(base-de-datos-relacional)-para-almacenar-al-nuevo-paciente-ingresado)
-
-
 # <h1 align=center> **Captura del documento** </h1>
 Proceso inicial donde el personal de salud tomará captura del documento de identidad del paciente
 
