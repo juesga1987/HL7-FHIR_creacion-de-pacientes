@@ -56,7 +56,7 @@ Una vez que la data esta en tipo diccionario en formato HL7 FHIR se procede a al
 
 # <h1 align=center> **Creación y despliegue del Azure Function para la automatización de procesos** </h1>
 
-En este paso procedemos a la creación de la Azure Function, la cual permitirá automatizar el proceso de lectura, definiendo un trigger(disparador) que detectará una imagen ingresada, la cual automaticamente pasará a ser definida por nuestra función de lectura. Para mayor detalle :
+En este paso procedemos a la creación de la Azure Function, la cual permitirá automatizar el proceso de lectura, definiendo un trigger(disparador) que detectará una imagen ingresada, la cual automaticamente pasará a ser definida por nuestra función de lectura.
 
 # <h1 align=center> **Uso de Docker para el despliegue de servidor de HAPI FHIR** </h1>
 
