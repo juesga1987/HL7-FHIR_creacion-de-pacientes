@@ -26,8 +26,6 @@ Los procesos que veremos son:
     1. [Creación de la base de datos PostgreSQL(base de datos relacional) para almacenar al nuevo paciente ingresado](#Creación-de-la-base-de-datos-PostgreSQL(base-de-datos-relacional)-para-almacenar-al-nuevo-paciente-ingresado)
 
 
-Veamos cada uno de los procesos:
-
 # <h1 align=center> **Captura del documento** </h1>
 Proceso inicial donde el personal de salud tomará captura del documento de identidad del paciente
 
