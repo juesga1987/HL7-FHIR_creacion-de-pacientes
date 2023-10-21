@@ -46,7 +46,7 @@ data = {
 
 ##  **Transformacion de la captura de datos a formato HL7 FHIR** 
 
-Las librerías mencionadas permitirán crear al **"paciente"** de la siguiente manera:
+Las librerías mencionadas permitirán crear al **"paciente"**.
 
 # <h1 align=center> **Almacenamiento de la data transformada en Microsoft Azure Blob Storage** </h1>
 
