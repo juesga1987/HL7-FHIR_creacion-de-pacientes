@@ -37,7 +37,7 @@ Proceso inicial donde el personal de salud tomará captura del documento de iden
 Entonces la imagen capturada será procesada y almacenada en formato **jpg** en el almacenamiento de Azure: **Azure Blob Storage**
 
 <p align="center">
-  <img src="images/almacenamiento.png" alt="almacena"  width="80%"/>
+  <img src="almacenamiento.png" alt="almacena"  width="80%"/>
 </p>
 
 
