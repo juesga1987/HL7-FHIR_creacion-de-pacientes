@@ -32,6 +32,7 @@ Una vez la imagen almacenada en Azure se procede a la lectura de la misma median
 </p>
 Este proceso es común para todas las nacionalidades, donde definimos un umbral de similitud, y una lista de palabras para cada nacionalidad. Es entonces que ahora se tiene la data limpia, los datos que queremos extraer, así vamos extrayendo la data bajo el siguiente formato:
 
+'''
 data = {
 
 'Nombres': [Nombres],
@@ -43,6 +44,7 @@ data = {
 'Numero de Documento': [Numeros_de_DNI],
 'Sexo': [Sexo],
 'Pais': ['pais']}
+'''
 
 ##  **Transformacion de la captura de datos a formato HL7 FHIR** 
 
