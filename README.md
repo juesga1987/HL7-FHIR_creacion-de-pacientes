@@ -1,6 +1,11 @@
 <h1 align=center> HL7-FHIR_creacion-de-pacientes </h1>
 <p align=center><img src=https://www.goup.cloud/wp-content/uploads/2020/07/Go_Up_Cloud-300x210.png></p>
 
+## Juan Esteban García.
+## Email: juanestebangarciarodriguez@gmail.com
+## Usuario GitHub: juesga1987
+## Link video API : [https://proyecto-individual-1-mlops.onrender.com/docs#/](https://drive.google.com/file/d/15GJj8pvzrTOCVSnCr76groU5xm5__3-U/view?usp=share_link)
+
 El presente proyecto tiene como objetivo la captura de un documento identidad para ser procesado mediante técnicas de **Inteligencia Artificial** con el fin de obtener la lectura de sus datos. Dicha información generada es almacenada en un **Repositorio Clínico** llamado **FHIR** a través de **Azure Health Data Services**. Esta información resultante será de consulta inmediata desde cualquier entidad conectada a FHIR a través de Azure Health Data Services.
 
 El siguiente diagrama muestra el camino desde la toma de imagen hasta el almacenamiento o consulta del paciente:
